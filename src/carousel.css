@@ -1,0 +1,26 @@
+.carousel-container {
+  height: 110px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #eee;
+  text-align: center;
+}
+.slick-list {
+  height: 110px;
+}
+.slick-slide {
+  background-color: #881798;
+  margin: 10px;
+}
+.slick-dots li button:before {
+  font-size: 30px;
+}
+.slick-dots li.slick-active button:before {
+  color: #cc0000;
+  font-size: 60px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #881798;
+}
